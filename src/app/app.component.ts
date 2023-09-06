@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 import { GoogleApiService, UserInfo } from './google-api.service';
 
-@Component({
+@Component({ 
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
